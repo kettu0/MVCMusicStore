@@ -1,0 +1,8 @@
+﻿using System;
+namespace MVCMusicStore.Models;
+
+public class Album
+{
+    public string Title { get; set; }
+    public Genre Genre { get; set; }
+}
